@@ -15,7 +15,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { LayoutDashboardIcon, ListIcon, ChartBarIcon, FolderIcon, UsersIcon, CameraIcon, FileTextIcon, Settings2Icon, CircleHelpIcon, SearchIcon, DatabaseIcon, FileChartColumnIcon, FileIcon, CommandIcon } from "lucide-react"
+import { WorkflowIcon, LayoutDashboardIcon, ListIcon, ChartBarIcon, FolderIcon, UsersIcon, CameraIcon, FileTextIcon, Settings2Icon, CircleHelpIcon, SearchIcon, DatabaseIcon, FileChartColumnIcon, FileIcon, CommandIcon, MessageCircleIcon, UserIcon, CreditCardIcon, ServerIcon, HeartPulseIcon, SettingsIcon, BookIcon } from "lucide-react"
 
 const data = {
   user: {
@@ -25,7 +25,7 @@ const data = {
   },
   navMain: [
     {
-      title: "Dashboard",
+      title: "Overview",
       url: "#",
       icon: (
         <LayoutDashboardIcon
@@ -33,10 +33,34 @@ const data = {
       ),
     },
     {
-      title: "Lifecycle",
+      title: "Clients",
       url: "#",
       icon: (
         <ListIcon
+        />
+      ),
+    },
+    {
+      title: "Leads",
+      url: "#",
+      icon: (
+        <UserIcon
+        />
+      ),
+    },
+    {
+      title: "Conversations",
+      url: "#",
+      icon: (
+        <MessageCircleIcon
+        />
+      ),
+    },
+    {
+      title: "Workflows",
+      url: "#",
+      icon: (
+        <WorkflowIcon
         />
       ),
     },
@@ -45,6 +69,38 @@ const data = {
       url: "#",
       icon: (
         <ChartBarIcon
+        />
+      ),
+    },
+    {
+      title: "Chat Settings",
+      url: "#",
+      icon: (
+        <SettingsIcon
+        />
+      ),
+    },
+    {
+      title: "Knowledge Base",
+      url: "#",
+      icon: (
+        <BookIcon
+        />
+      ),
+    },
+    {
+      title: "System Health",
+      url: "#",
+      icon: (
+        <HeartPulseIcon
+        />
+      ),
+    },
+    {
+      title: "Deployments",
+      url: "#",
+      icon: (
+        <ServerIcon
         />
       ),
     },
@@ -61,6 +117,22 @@ const data = {
       url: "#",
       icon: (
         <UsersIcon
+        />
+      ),
+    },
+    {
+      title: "Billing",
+      url: "#",
+      icon: (
+        <CreditCardIcon
+        />
+      ),
+    },
+    {
+      title: "Audit Log",
+      url: "#",
+      icon: (
+        <FileTextIcon
         />
       ),
     },
@@ -196,7 +268,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavDocuments items={data.documents} />
+        {/* <NavDocuments items={data.documents} /> */}
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>

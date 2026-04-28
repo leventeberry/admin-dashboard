@@ -26,7 +26,7 @@ const data = {
   navMain: [
     {
       title: "Overview",
-      url: "#",
+      url: "/dashboard",
       icon: (
         <LayoutDashboardIcon
         />
@@ -34,7 +34,7 @@ const data = {
     },
     {
       title: "Clients",
-      url: "#",
+      url: "/clients",
       icon: (
         <ListIcon
         />
@@ -42,7 +42,7 @@ const data = {
     },
     {
       title: "Leads",
-      url: "#",
+      url: "/leads",
       icon: (
         <UserIcon
         />
@@ -50,7 +50,7 @@ const data = {
     },
     {
       title: "Conversations",
-      url: "#",
+      url: "/conversations",
       icon: (
         <MessageCircleIcon
         />
@@ -58,7 +58,7 @@ const data = {
     },
     {
       title: "Workflows",
-      url: "#",
+      url: "/workflows",
       icon: (
         <WorkflowIcon
         />
@@ -66,7 +66,7 @@ const data = {
     },
     {
       title: "Analytics",
-      url: "#",
+      url: "/analytics",
       icon: (
         <ChartBarIcon
         />
@@ -74,7 +74,7 @@ const data = {
     },
     {
       title: "Chat Settings",
-      url: "#",
+      url: "/chat-settings",
       icon: (
         <SettingsIcon
         />
@@ -82,7 +82,7 @@ const data = {
     },
     {
       title: "Knowledge Base",
-      url: "#",
+      url: "/knowledge-base",
       icon: (
         <BookIcon
         />
@@ -90,7 +90,7 @@ const data = {
     },
     {
       title: "System Health",
-      url: "#",
+      url: "/system-health",
       icon: (
         <HeartPulseIcon
         />
@@ -98,7 +98,7 @@ const data = {
     },
     {
       title: "Deployments",
-      url: "#",
+      url: "/deployments",
       icon: (
         <ServerIcon
         />
@@ -106,7 +106,7 @@ const data = {
     },
     {
       title: "Projects",
-      url: "#",
+      url: "/projects",
       icon: (
         <FolderIcon
         />
@@ -114,7 +114,7 @@ const data = {
     },
     {
       title: "Team",
-      url: "#",
+      url: "/team",
       icon: (
         <UsersIcon
         />
@@ -122,7 +122,7 @@ const data = {
     },
     {
       title: "Billing",
-      url: "#",
+      url: "/billing",
       icon: (
         <CreditCardIcon
         />
@@ -130,7 +130,7 @@ const data = {
     },
     {
       title: "Audit Log",
-      url: "#",
+      url: "/audit-log",
       icon: (
         <FileTextIcon
         />
@@ -197,7 +197,7 @@ const data = {
   navSecondary: [
     {
       title: "Settings",
-      url: "#",
+      url: "/general-settings",
       icon: (
         <Settings2Icon
         />
@@ -205,7 +205,7 @@ const data = {
     },
     {
       title: "Get Help",
-      url: "#",
+      url: "/get-help",
       icon: (
         <CircleHelpIcon
         />
@@ -213,7 +213,7 @@ const data = {
     },
     {
       title: "Search",
-      url: "#",
+      url: "/search",
       icon: (
         <SearchIcon
         />

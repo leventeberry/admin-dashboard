@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Onboarding Workflow",
+    "status": "Active",
+    "steps": 8,
+    "owner": "Eddie Lake",
+    "updated": "2024-06-01"
+  },
+  {
+    "id": 2,
+    "name": "Approval Pipeline",
+    "status": "Draft",
+    "steps": 5,
+    "owner": "Jamik Tashpulatov",
+    "updated": "2024-05-30"
+  }
+]

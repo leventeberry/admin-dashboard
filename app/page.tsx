@@ -1,13 +1,10 @@
-import LoginPage from "./login/page";
-import Dashboard from "./dashboard/page";
+import { auth } from '@/auth';
+import { redirect } from 'next/navigation';
 
-export default function Home() {
-
-  const isAuthenticated = true;
-
-  return (
-    <div>
-      {isAuthenticated ? <Dashboard /> : <LoginPage />}
-    </div>
-  );
+export default async function Home() {
+  const session = await auth();
+  if (session?.user) {
+    redirect('/dashboard');
+  }
+  redirect('/login');
 }

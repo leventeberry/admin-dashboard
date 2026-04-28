@@ -1,7 +1,6 @@
-"use client"
-
-import { LoginForm } from "@/components/login-form"
-import { GalleryVerticalEndIcon } from "lucide-react"
+import { Suspense } from 'react';
+import { LoginForm } from '@/components/login-form';
+import { GalleryVerticalEndIcon } from 'lucide-react';
 
 export default function LoginPage() {
   return (
@@ -17,17 +16,19 @@ export default function LoginPage() {
         </div>
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-xs">
-            <LoginForm />
+            <Suspense fallback={<div className="text-center text-sm text-muted-foreground">Loading…</div>}>
+              <LoginForm />
+            </Suspense>
           </div>
         </div>
       </div>
       <div className="relative hidden bg-muted lg:block">
         <img
           src="/placeholder.svg"
-          alt="Image"
+          alt=""
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />
       </div>
     </div>
-  )
+  );
 }

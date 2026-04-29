@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Audit Log Tab — Trust + accountability layer.
+ *
+ * This is where system history is preserved.
+ *
+ * Tracks:
+ * - Admin actions
+ * - Lead updates
+ * - Settings changes
+ * - Workflow triggers
+ * - Prompt changes
+ * - Deployment changes
+ * - Permission updates
+ * - Critical system events
+ *
+ * This is your accountability engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

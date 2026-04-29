@@ -3,6 +3,22 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Leads Tab — Revenue pipeline.
+ *
+ * This is where money is coming from.
+ *
+ * Tracks:
+ * - Inbound leads
+ * - Chat submissions
+ * - CTA submissions
+ * - Qualification status
+ * - Discovery scheduling
+ * - Proposal stage
+ * - Deal progression
+ *
+ * This is your sales engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

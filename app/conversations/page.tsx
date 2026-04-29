@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Conversations Tab — AI behavior + conversion visibility.
+ *
+ * This is where you inspect what actually happened.
+ *
+ * Tracks:
+ * - Visitor conversations
+ * - Assistant responses
+ * - Lead generation moments
+ * - Demo request triggers
+ * - User objections
+ * - Drop-off points
+ * - Failed handoffs
+ * - Escalation opportunities
+ *
+ * This is your AI debugging engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

@@ -7,6 +7,24 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 
 import data from "./data.json"
 
+/**
+ * Overview Tab — Executive control center.
+ *
+ * This is where platform-wide priorities are surfaced.
+ *
+ * Tracks:
+ * - New leads today
+ * - Awaiting response deals
+ * - Discovery calls booked
+ * - Workflow failures
+ * - Active client automations
+ * - AI availability
+ * - Conversion rate
+ * - Revenue health
+ * - Urgent operator actions
+ *
+ * This is your command center.
+ */
 export default function Page() {
   return (
     <SidebarProvider

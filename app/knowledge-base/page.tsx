@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Knowledge Base Tab — RAG control center.
+ *
+ * This is where assistant knowledge is managed.
+ *
+ * Tracks:
+ * - Uploaded documents
+ * - Approved sources
+ * - Retrieval quality
+ * - Stale content
+ * - Missing knowledge gaps
+ * - Restricted content
+ * - Source ownership
+ * - Client knowledge coverage
+ *
+ * This is your intelligence engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

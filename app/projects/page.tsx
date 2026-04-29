@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Projects Tab — Internal execution management.
+ *
+ * This is where ColumbusAI gets built.
+ *
+ * Tracks:
+ * - Internal initiatives
+ * - Feature delivery
+ * - Roadmap execution
+ * - Implementation priorities
+ * - Ops improvements
+ * - Platform upgrades
+ * - Strategic projects
+ * - Owner accountability
+ *
+ * This is your execution engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

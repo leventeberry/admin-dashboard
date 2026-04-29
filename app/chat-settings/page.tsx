@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Chat Settings Tab — Assistant control panel.
+ *
+ * This is where AI behavior is managed.
+ *
+ * Tracks:
+ * - Prompts
+ * - Assistant behavior
+ * - Lead capture rules
+ * - Suggestion chips
+ * - Routing logic
+ * - Demo flow settings
+ * - Fallback behavior
+ * - Qualification thresholds
+ *
+ * This is your AI control engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

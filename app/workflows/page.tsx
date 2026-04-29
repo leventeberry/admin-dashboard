@@ -8,6 +8,23 @@ import { PlusIcon } from "lucide-react"
 
 import workflows from "./data.json"
 
+/**
+ * Workflows Tab — Automation execution center.
+ *
+ * This is where system actions are verified.
+ *
+ * Tracks:
+ * - n8n workflow runs
+ * - Webhook executions
+ * - Failures
+ * - Retries
+ * - Submission confirmations
+ * - Follow-up sequences
+ * - Calendar events
+ * - Lead stage automation
+ *
+ * This is your automation engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

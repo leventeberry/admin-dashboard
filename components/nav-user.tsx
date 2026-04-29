@@ -23,6 +23,41 @@ import {
 import { EllipsisVerticalIcon, CircleUserRoundIcon, CreditCardIcon, BellIcon, LogOutIcon } from "lucide-react"
 import { signOut } from "next-auth/react"
 
+/**
+ * Sidebar footer operator menu.
+ *
+ * **Account** — Personal operator profile.
+ *
+ * This is where the individual admin manages their identity and access.
+ *
+ * Tracks:
+ * - Profile details
+ * - Role assignment
+ * - Access permissions
+ * - Connected accounts
+ * - Authentication methods
+ * - Security preferences
+ * - Session activity
+ * - Personal notification preferences
+ *
+ * This is your identity engine.
+ *
+ * **Notifications** — Attention management center.
+ *
+ * This is where critical alerts and operational updates are surfaced.
+ *
+ * Tracks:
+ * - Workflow failures
+ * - New lead alerts
+ * - Discovery bookings
+ * - Escalation requests
+ * - Deployment failures
+ * - Payment issues
+ * - System incidents
+ * - Admin action alerts
+ *
+ * This is your alert engine.
+ */
 export function NavUser({
   user,
 }: {
@@ -82,11 +117,6 @@ export function NavUser({
                 <CircleUserRoundIcon
                 />
                 Account
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <CreditCardIcon
-                />
-                Billing
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <BellIcon

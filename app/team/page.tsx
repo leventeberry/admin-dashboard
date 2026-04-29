@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Team Tab — People operations.
+ *
+ * This is where operator access is managed.
+ *
+ * Tracks:
+ * - Admin users
+ * - Internal roles
+ * - Permissions
+ * - Ownership assignments
+ * - Handoff responsibilities
+ * - Support coverage
+ * - Accountability mapping
+ * - Team workload
+ *
+ * This is your people engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

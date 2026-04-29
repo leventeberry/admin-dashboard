@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "address": "123 Main St, Anytown, USA",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "+1234567890",
+        "address": "123 Main St, Anytown, USA",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "country": "USA"
+    },
+    {
+        "id": 3,
+        "name": "Jim Beam",
+        "email": "jim.beam@example.com",
+        "phone": "+1234567890",
+        "address": "123 Main St, Anytown, USA",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345",
+        "country": "USA"
+    }
+]

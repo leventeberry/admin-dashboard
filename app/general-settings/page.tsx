@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Settings — Platform administration center.
+ *
+ * This is where system-wide rules and operational controls are managed.
+ *
+ * Tracks:
+ * - Admin platform configuration
+ * - Security policies
+ * - Environment defaults
+ * - Access rules
+ * - Notification rules
+ * - Workflow defaults
+ * - Billing controls
+ * - Platform-level overrides
+ *
+ * This is your governance engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * System Health Tab — Infrastructure visibility.
+ *
+ * This is where reliability is protected.
+ *
+ * Tracks:
+ * - API uptime
+ * - Database health
+ * - Redis health
+ * - OpenAI/LLM availability
+ * - Workflow system health
+ * - Failed services
+ * - Latency issues
+ * - System incidents
+ *
+ * This is your reliability engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

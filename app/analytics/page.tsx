@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Analytics Tab — Business intelligence layer.
+ *
+ * This is where trends become decisions.
+ *
+ * Tracks:
+ * - Conversion funnel
+ * - Lead source performance
+ * - Assistant performance
+ * - Booking rates
+ * - Close rates
+ * - Client retention
+ * - Revenue trends
+ * - Churn indicators
+ *
+ * This is your decision engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

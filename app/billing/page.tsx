@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Billing Tab — Revenue operations.
+ *
+ * This is where money is collected and protected.
+ *
+ * Tracks:
+ * - Invoices
+ * - Subscriptions
+ * - Payments
+ * - Overdue accounts
+ * - Failed payments
+ * - Setup fees
+ * - Recurring retainers
+ * - Expansion billing
+ *
+ * This is your cashflow engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

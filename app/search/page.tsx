@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Search — System-wide intelligence lookup.
+ *
+ * This is where operators find answers fast.
+ *
+ * Tracks:
+ * - Leads
+ * - Clients
+ * - Conversations
+ * - Workflows
+ * - Settings
+ * - Deployments
+ * - Audit events
+ * - Knowledge documents
+ *
+ * This is your discovery engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

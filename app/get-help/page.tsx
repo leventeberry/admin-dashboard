@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Get Help — Support + operational assistance center.
+ *
+ * This is where admins resolve issues and access guidance.
+ *
+ * Tracks:
+ * - Internal documentation
+ * - Troubleshooting guides
+ * - Onboarding resources
+ * - Support requests
+ * - Emergency procedures
+ * - Workflow recovery steps
+ * - Incident response guides
+ * - Escalation paths
+ *
+ * This is your support engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider

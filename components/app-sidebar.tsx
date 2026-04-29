@@ -33,14 +33,6 @@ const data = {
       ),
     },
     {
-      title: "Clients",
-      url: "/clients",
-      icon: (
-        <ListIcon
-        />
-      ),
-    },
-    {
       title: "Leads",
       url: "/leads",
       icon: (
@@ -48,6 +40,15 @@ const data = {
         />
       ),
     },
+    {
+      title: "Clients",
+      url: "/clients",
+      icon: (
+        <ListIcon
+        />
+      ),
+    },
+
     {
       title: "Conversations",
       url: "/conversations",

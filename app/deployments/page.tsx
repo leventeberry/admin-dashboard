@@ -3,6 +3,23 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Card, CardContent } from "@/components/ui/card"
 
+/**
+ * Deployments Tab — Launch + environment control.
+ *
+ * This is where delivery becomes production.
+ *
+ * Tracks:
+ * - Client launches
+ * - Assistant deployments
+ * - Environment status
+ * - Version control
+ * - Deployment history
+ * - Rollback state
+ * - Release approvals
+ * - Production incidents
+ *
+ * This is your release engine.
+ */
 export default function Page() {
   return (
     <SidebarProvider
